@@ -1,0 +1,42 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 9;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #fff;
+}
+
+.fixed-header .navbar {
+    background: #fff;
+    position: fixed;
+    width: 100%;    
+    left: 0;
+    right: 0;
+    padding: 5px 0;
+}
+.navbar {
+	padding: 20px 0;
+	transition: all .5s ease;
+}
+.fixed-header .navbar-expand-lg .navbar-nav .nav-link {
+    color: #333;
+}
+.fixed-header .navbar-light .navbar-nav .nav-link.active, .fixed-header .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(243 43 0) !important;
+}
+
+.navbar-collapse.collapse.show .nav-link {
+    color: #333;
+}
